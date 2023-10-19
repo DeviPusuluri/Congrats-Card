@@ -1,0 +1,84 @@
+/* Write your code here. */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+  height: 100vh;
+  background-color: #cffafe;
+  font-family: Roboto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media (max-width: 767px) {
+  body {
+    overflow: hidden;
+  }
+  .bg-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .img-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .heading {
+    color: #f8fafc;
+    align-self: center;
+    font-size: 25px;
+  }
+  .heading1 {
+    color: #1e293b;
+    align-self: center;
+    font-size: 25px;
+  }
+  .paragraph {
+    color: #1e293b;
+    align-self: center;
+    font-size: 25px;
+  }
+  .image {
+    align-self: center;
+    width: 30%;
+    border-radius: 10px;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    overflow: hidden;
+  }
+  .bg-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .img-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .heading {
+    color: #f8fafc;
+    align-self: center;
+    font-size: 25px;
+  }
+  .heading1 {
+    color: #1e293b;
+    align-self: center;
+    font-size: 25px;
+  }
+  .paragraph {
+    color: #1e293b;
+    align-self: center;
+    font-size: 25px;
+  }
+  .image {
+    align-self: center;
+    width: 30%;
+    border-radius: 10px;
+  }
+}
